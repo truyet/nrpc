@@ -28,7 +28,7 @@ import (
 
 // {{.GetName}}Server is the interface that providers of the service
 // {{.GetName}} should implement.
-type {{.GetName}}Server interface {
+type {{.GetName}}NatsServer interface {
 	{{- range .Method}}
 	{{- if ne .GetInputType ".nrpc.NoRequest"}}
 	{{- $resultType := GetResultType .}}
