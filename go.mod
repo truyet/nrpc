@@ -1,6 +1,6 @@
-module github.com/nats-rpc/nrpc
+module github.com/truyet/nrpc
 
-go 1.11
+go 1.15
 
 require (
 	github.com/golang/protobuf v1.4.0
