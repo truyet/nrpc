@@ -1,6 +1,6 @@
 # nRPC
 
-[![Build Status](https://travis-ci.org/nats-rpc/nrpc.svg?branch=master)](https://travis-ci.org/nats-rpc/nrpc)
+[![Build Status](https://travis-ci.org/truyet/nrpc.svg?branch=master)](https://travis-ci.org/truyet/nrpc)
 
 nRPC is an RPC framework like [gRPC](https://grpc.io/), but for
 [NATS](https://nats.io/).
